@@ -1,0 +1,40 @@
+# Confluence Protocol Dependencies
+# Python 3.8+
+
+# Core Scientific Computing
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<2.0.0
+scikit-learn>=1.3.0,<2.0.0
+
+# Data Handling
+pandas>=2.0.0,<3.0.0
+
+# Natural Language Processing
+nltk>=3.8.0,<4.0.0
+
+# XML Parsing
+lxml>=4.9.0,<5.0.0
+
+# Visualization
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Optional: Embeddings (for embedding_pca method)
+# Uncomment if using embedding-based phase calculation
+# sentence-transformers>=2.2.0,<3.0.0
+# torch>=2.0.0,<3.0.0
+
+# Development Dependencies (optional)
+pytest>=7.4.0,<8.0.0
+pytest-cov>=4.1.0,<5.0.0
+jupyter>=1.0.0,<2.0.0
+ipykernel>=6.25.0,<7.0.0
+
+# Type Checking (optional)
+# mypy>=1.5.0,<2.0.0
+# types-requests>=2.31.0
+
+# Code Quality (optional)
+# black>=23.7.0,<24.0.0
+# flake8>=6.1.0,<7.0.0
+# isort>=5.12.0,<6.0.0
